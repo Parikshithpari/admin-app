@@ -1,10 +1,12 @@
+
 {
   "appId": "com.ptag.admin",
   "appName": "PTag Admin",
   "webDir": "build",
   "bundledWebRuntime": false,
   "server": {
-    "androidScheme": "https"
+    "androidScheme": "https",
+    "cleartext": true
   },
   "plugins": {
     "CapacitorHttp": {
