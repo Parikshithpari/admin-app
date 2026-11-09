@@ -5,8 +5,8 @@ import './dashboard.css';
 import usePageTitle from '../usePageTitle';
 import ptagLogo from '../assets/PTag.png';
 
-const BASE_URL = "https://scouring-pointy-bagging.ngrok-free.dev";
-const WS_URL   = "wss://scouring-pointy-bagging.ngrok-free.dev/ws/websocket";
+const BASE_URL = "http://31.97.232.140:8080";
+const WS_URL   = "ws://31.97.232.140:8080/ws/websocket";
 
 function Dashboard() {
   usePageTitle("Admin Dashboard");
